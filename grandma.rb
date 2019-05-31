@@ -10,12 +10,12 @@
 # NO, NOT SINCE 1938!
 
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
-# 'NO, NOT SINCE 1938!'
+# 'I LOVE YOU TOO, PUMPKIN!'
 def speak_to_grandma(input)
   if(input != input.upcase)
     puts "HUH?! SPEAK UP, SONNY!"
   else if(input != "I LOVE YOU GRANDMA!")
     puts "NO, NOT SINCE 1938!"
   else
-    
+    puts "I LOVE YOU TOO, PUMPKIN!"
 end
